@@ -1,13 +1,13 @@
 ﻿{
   "GameModeType": "PvE",
-  "CastleDamageMode": "Always",
+  "CastleDamageMode": "Never",
   "SiegeWeaponHealth": "Normal",
   "PlayerDamageMode": "Always",
-  "CastleHeartDamageMode": "CanBeDestroyedByPlayers",
+  "CastleHeartDamageMode": "CanBeDestroyedOnlyWhenDecaying",
   "PvPProtectionMode": "Medium",
   "DeathContainerPermission": "Anyone",
-  "RelicSpawnType": "Unique",
-  "CanLootEnemyContainers": true,
+  "RelicSpawnType": "Plentiful",
+  "CanLootEnemyContainers": false,
   "BloodBoundEquipment": true,
   "TeleportBoundItems": true,
   "AllowGlobalChat": true,
@@ -22,14 +22,14 @@
   "DisableDisconnectedDeadEnabled": true,
   "DisableDisconnectedDeadTimer": 60,
   "InventoryStacksModifier": 1.0,
-  "DropTableModifier_General": 1.0,
-  "DropTableModifier_Missions": 1.0,
-  "MaterialYieldModifier_Global": 1.0,
-  "BloodEssenceYieldModifier": 1.0,
+  "DropTableModifier_General": 0.75,
+  "DropTableModifier_Missions": 0.75,
+  "MaterialYieldModifier_Global": 0.75,
+  "BloodEssenceYieldModifier": 0.75,
   "JournalVBloodSourceUnitMaxDistance": 25.0,
   "PvPVampireRespawnModifier": 1.0,
   "CastleMinimumDistanceInFloors": 2,
-  "ClanSize": 4,
+  "ClanSize": 10,
   "BloodDrainModifier": 1.0,
   "DurabilityDrainModifier": 1.0,
   "GarlicAreaStrengthModifier": 1.0,
@@ -52,7 +52,7 @@
   "DismantleResourceModifier": 0.75,
   "ServantConvertRateModifier": 1.0,
   "RepairCostModifier": 1.0,
-  "Death_DurabilityFactorLoss": 0.25,
+  "Death_DurabilityFactorLoss": 0.10,
   "Death_DurabilityLossFactorAsResources": 1.0,
   "StarterEquipmentId": 0,
   "StarterResourcesId": 0,
@@ -80,12 +80,12 @@
     "ReviveCancelDelay": 5.0
   },
   "UnitStatModifiers_Global": {
-    "MaxHealthModifier": 1.0,
-    "PowerModifier": 1.0
+    "MaxHealthModifier": 1.25,
+    "PowerModifier": 1.25
   },
   "UnitStatModifiers_VBlood": {
-    "MaxHealthModifier": 1.0,
-    "PowerModifier": 1.0
+    "MaxHealthModifier": 1.25,
+    "PowerModifier": 2
   },
   "EquipmentStatModifiers_Global": {
     "MaxEnergyModifier": 1.0,
